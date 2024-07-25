@@ -1,0 +1,148 @@
+body {
+    background-color: #222831 !important;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+h1 {
+    color: #ffffff !important;
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 50px; 
+    font-weight: bold; 
+}
+.btn-primary {
+    margin-bottom: 20px; 
+}
+
+.note {
+    background-color: #ffeaa7; 
+    border-radius: 5px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative; 
+    width: 350px; 
+    max-width: 100%; 
+    min-height: 220px; 
+    overflow: hidden; 
+    word-wrap: break-word; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+     
+}
+
+.note h5,
+.note p {
+    font-family: 'Bradley Hand', cursive; 
+    font-size: 25px; 
+}
+.note h2,
+.note p {
+    font-family: 'Bradley Hand', cursive; 
+    font-size: 19px; 
+}
+
+
+.note.important {
+    background-color: #ff7675; 
+    color: white;
+}
+
+
+.note:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+@media (max-width: 768px) {
+    .note {
+        width: calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 576px) {
+    .note {
+        width: calc(100% - 20px); 
+    }
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #0984e3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #74b9ff;
+}
+
+
+.test {
+    color: red;
+    font-size: 20px;
+}
+
+.sticky-note {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+
+.form-control {
+    font-size: 16px; 
+    padding: 10px;  
+    width: calc(100% - 20px);  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    box-sizing: border-box;  
+}
+
+
+.btn-primary {
+    background-color: #4fb5ba !important;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px; 
+    font-size: 16px;  
+    cursor: pointer;  
+    border-radius: 4px;  
+    box-sizing: border-box;  
+}
+
+
+label {
+    font-size: 16px;  
+    font-weight: bold;  
+    margin-bottom: 8px;  
+}
+
+
+.form-group {
+    margin-bottom: 20px;  
+}
+
+
+.form-check-label {
+    color: #ffffff; 
+}
+
+
+
